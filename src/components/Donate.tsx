@@ -4,6 +4,7 @@ export default function Donate() {
   const [showQR, setShowQR] = useState(false);
 
   return (
+
     <section id="donate" className="py-16 md:py-24 lg:py-28 bg-gradient-to-br from-brand-600 to-brand-500 text-white relative overflow-hidden">
       <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-72 h-72 bg-white/5 rounded-full blur-3xl" />

@@ -11,6 +11,7 @@ import Gallery from './components/Gallery';
 import Activities from './components/Activities';
 import Impact from './components/Impact';
 import Blog from './components/Blog';
+import Sorim from './components/Sorim';
 import Donate from './components/Donate';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -51,6 +52,7 @@ function AppContent() {
       <Impact />
       <Blog />
       <Donate />
+      <Sorim />
       <Contact />
       <Footer />
     </div>
