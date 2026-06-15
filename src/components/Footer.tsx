@@ -130,7 +130,7 @@ export default function Footer() {
             <div className="rounded-lg border border-white/10 bg-white/[0.04] p-4">
               <div className="flex min-h-56 items-center justify-center rounded-lg bg-gradient-to-br from-white via-white to-brand-50 p-5 shadow-xl shadow-black/20 ring-1 ring-white/20">
                 <img
-                  src="/94dee448-4fb1-42a8-ad8e-fe437361ac21.jpeg"
+                  src="public\advlogo.jpg"
                   alt="Advesa Trust"
                   className="h-44 max-w-full rounded-md object-contain drop-shadow-sm"
                 />

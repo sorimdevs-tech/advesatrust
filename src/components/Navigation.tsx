@@ -25,24 +25,23 @@ export default function Navigation() {
 
   return (
     <nav
-      className={`sticky top-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`sticky top-0 z-50 transition-all duration-300 ${scrolled
           ? 'bg-white/90 backdrop-blur-xl shadow-sm'
           : 'bg-white shadow-sm'
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <button
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="group inline-flex h-14 w-14 items-center justify-center rounded-lg bg-white p-1 shadow-md shadow-gray-900/5 ring-1 ring-gray-200 transition-all hover:shadow-lg hover:ring-brand-600/40 md:h-16 md:w-16"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="group inline-flex items-center justify-center transition-all hover:scale-105"
             aria-label="Advesa Trust home"
           >
             <img
-              src="/94dee448-4fb1-42a8-ad8e-fe437361ac21.jpeg"
+              src="/advlogo.jpg"
               alt="Advesa Trust"
-              className="h-full w-full rounded-md object-contain"
+              className="h-16 w-auto object-contain md:h-20"
             />
           </button>
 
@@ -89,9 +88,8 @@ export default function Navigation() {
 
       {/* Mobile Nav */}
       <div
-        className={`md:hidden transition-all duration-300 overflow-hidden ${
-          isOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
-        }`}
+        className={`md:hidden transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
+          }`}
       >
         <div className="bg-white border-t border-gray-100 px-4 py-3 space-y-1">
           {NAV_ITEMS.map((item) => (
