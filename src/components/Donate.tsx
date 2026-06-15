@@ -15,11 +15,11 @@ export default function Donate() {
   const [copied, setCopied] = useState("");
 
   const bankDetails = {
-    accountName: "ADVESA TRUST",
-    bankName: "Indian Bank",
-    accountNumber: "1234567890123456",
-    ifsc: "IDIB000XXXX",
-    branch: "Chennai Main Branch",
+    accountName: "Advesa Charitable Trust",
+    bankName: "Union Bank of India",
+    accountNumber: "497502010065553",
+    ifsc: "UBIN0541231",
+    branch: "Nungambakkam",
   };
 
   const copyText = async (text: string, key: string) => {
@@ -35,11 +35,11 @@ export default function Donate() {
     }
   };
 
-  const allBankDetailsText = `Account Name : ${bankDetails.accountName}
-Bank Name : ${bankDetails.bankName}
-Account Number : ${bankDetails.accountNumber}
-IFSC : ${bankDetails.ifsc}
-Branch : ${bankDetails.branch}`;
+  const allBankDetailsText = `Account Name: ${bankDetails.accountName}
+Account Number: ${bankDetails.accountNumber}
+Bank Name: ${bankDetails.bankName}
+Branch: ${bankDetails.branch}
+IFSC Code: ${bankDetails.ifsc}`;
 
   return (
     <section
