@@ -51,8 +51,10 @@ const Sorim = () => {
                             </span>
                         </div>
 
-                        <h2 className="max-w-[840px] text-[42px] font-extrabold leading-[1.18] text-white md:text-[58px] lg:text-[64px]">
-                            Technology with Purpose.
+                        <h2 className="text-[44px] font-black leading-tight tracking-[-0.03em] text-white md:text-[58px] lg:text-[68px]">
+                            <span className="whitespace-nowrap">
+                                Technology with Purpose.
+                            </span>
                             <br />
                             Impact that Lasts.
                         </h2>
